@@ -23,7 +23,7 @@ ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
-    #Internal applications
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -33,6 +33,10 @@ INSTALLED_APPS = [
     
     #external applications
     'rest_framework',
+    'mptt',
+
+    #Internal applications
+    'drfecommerce.product',
     
 ]
 
